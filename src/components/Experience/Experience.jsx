@@ -25,7 +25,7 @@ const Experience = () => {
   return (
     <div
       id="Experience"
-      className="p-10 md:p-24 bg-gradient-to-b from-gray-900 via-black to-gray-800"
+      className="mt-20 p-10 md:p-24 bg-gradient-to-b from-gray-900 via-black to-gray-800"
     >
       <h1 className="text-4xl text-indigo-400 font-bold mb-12 text-center">
         Internship & Trainings
