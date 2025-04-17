@@ -21,7 +21,7 @@ const Projects = () => {
           main3="React.js, Node.js, Express.js, MongoDB, JavaScript, RESTful APIs"
           pic={ZaikaBite}
           demolink={"https://zaikabite-frontend.onrender.com/"}
-          codeLink={"https://github.com/Adiihub/EComm-Backend"}
+          codeLink={"https://github.com/Adiihub/ZaikaBite"}
         />
         <ProjectCard
           title="Bug Tracking System "
