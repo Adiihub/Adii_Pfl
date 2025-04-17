@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import mern from "../../assets/mern.png";
+// import mern from "../../assets/mern.png";
 import Ecom from "../../assets/Ecom.jpeg";
 import Bug from "../../assets/Bug.svg";
 import ZaikaBite from "../../assets/ZaikaBite.png"
