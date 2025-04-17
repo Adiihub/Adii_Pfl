@@ -1,5 +1,7 @@
 import pic from "../../assets/pic.jpg";
 import TextChanger from "../../TextChanger";
+import Resume from "../../assets/Resume.pdf";
+
 
 const Home = () => {
   const scrollToContact = () => {
@@ -15,13 +17,16 @@ const Home = () => {
         </h1>
 
         <p className="pt-2 text-sm md:text-2xl leading-tight tracking-tighter text-gray-300">
-        I am a Backend, Frontend Developer, and Software Developer, skilled in Node.js, Express, React, and Next.js.
+          I am a Backend, Frontend Developer, and Software Developer, skilled in
+          Node.js, Express, React, and Next.js.
         </p>
         <button
           onClick={scrollToContact}
           className="mt-5 md:m-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] hover:bg-[#3d4b70]"
         >
-          Contact Me
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
+            Download CV
+          </a>
         </button>
       </div>
       <div>
