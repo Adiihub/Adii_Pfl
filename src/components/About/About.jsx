@@ -3,7 +3,7 @@ import C from "../../assets/C.jpg";
 
 const About = () => {
   return (
-    <div id="About" className="mt-20 mb-20 text-gray-200 flex flex-col items-center bg-gradient-to-b from-gray-900 via-black to-gray-800 shadow-2xl mx-4 md:mx-20 rounded-xl p-10 md:p-16 my-6">
+    <div id="About" className="mt-20 text-gray-200 flex flex-col items-center bg-gradient-to-b from-gray-900 via-black to-gray-800 shadow-2xl mx-4 md:mx-20 rounded-xl p-10 md:p-16 my-6">
       <h2 className="text-4xl md:text-5xl font-bold mb-8 border-b-4 border-indigo-300 inline-block">
         About Me
       </h2>
