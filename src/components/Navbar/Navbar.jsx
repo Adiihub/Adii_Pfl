@@ -7,7 +7,7 @@ function Navbar() {
   const [showmenu, setShowmenu] = useState(true);
 
   return (
-    <nav className="flex justify-between items-center text-white px-10 py-6 md:px-16 bg-gradient-to-r from-gray-900 via-black to-gray-800 shadow-lg rounded-b-xl">
+    <nav className="sticky top-0 z-50 bg-gradient-to-r from-gray-900 via-black to-gray-800 shadow-lg rounded-b-xl flex justify-between items-center text-white px-10 py-4 md:px-16">
       <span className="text-2xl font-bold tracking-wider text-indigo-400">Portfolio</span>
 
       <ul

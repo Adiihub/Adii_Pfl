@@ -6,16 +6,19 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 
+
 function App() {
   return (
-    <div className="bg-[#171d32] min-h-screen overflow-x-hidden">
+    <div className="bg-[#171d32] min-h-screen w-full">
       <Navbar />
-      <Home />
-      <About />
-      <Experience />
-      <Projects />
-      <Acheivements/>
-      <Footer/>
+      <main className="overflow-x-hidden overflow-y-auto">
+        <Home />
+        <About />
+        <Experience />
+        <Projects />
+        <Acheivements />
+        <Footer />
+      </main>
     </div>
   );
 }
