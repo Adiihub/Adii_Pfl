@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Acheivements from "./components/Achievement/Achievements";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Acheivements/>
       <Footer/>
     </div>
   );

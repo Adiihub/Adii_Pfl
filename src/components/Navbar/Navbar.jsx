@@ -30,6 +30,11 @@ function Navbar() {
             Projects
           </li>
         </a>
+        <a href="#Achievements">
+          <li className="text-md transition-all duration-300 p-2 hover:text-indigo-400 hover:scale-105">
+            Achievements
+          </li>
+        </a>
         {/* <a href="#Contact">
           <li className="text-md transition-all duration-300 p-2 hover:text-indigo-400 hover:scale-105">
             Contact
