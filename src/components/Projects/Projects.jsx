@@ -4,6 +4,7 @@ import Ecom from "../../assets/Ecom.jpeg";
 import Bug from "../../assets/Bug.jpeg";
 import map from "../../assets/map.jpg";
 import ZaikaBite from "../../assets/ZaikaBite.png";
+import Notes from "../../assets/Notes.webp"
 
 const Projects = () => {
   return (
@@ -48,6 +49,14 @@ const Projects = () => {
           pic={map}
           codeLink={"https://github.com/Adiihub/RealTime-Device-Tracker"}
           technology={"Node.js, Express, HTML, CSS, Socket.IO, WebSocket, Leaflet.js"}
+        />
+        <ProjectCard
+          title="Notes Maintainer"
+          main="A simple yet functional Notes App built with React. Add, delete, and search your notes with data saved in localStorage to persist across sessions."
+          pic={Notes}
+          codeLink={"https://github.com/Adiihub/basic-notes-maintainer"}
+          demolink={"https://67f11191c2817a54a360cf21--cosmic-lebkuchen-7d1f81.netlify.app/"}
+          technology={"React, HTML/CSS, JavaScript, LocalStorage API"}
         />
       </div>
     </div>
