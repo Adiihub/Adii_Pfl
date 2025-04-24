@@ -4,7 +4,7 @@ import Ecom from "../../assets/Ecom.jpeg";
 import Bug from "../../assets/Bug.jpeg";
 import map from "../../assets/map.jpg";
 import ZaikaBite from "../../assets/ZaikaBite.png";
-import Notes from "../../assets/Notes.webp"
+import Notes from "../../assets/Notes.jpg"
 
 const Projects = () => {
   return (
