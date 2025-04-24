@@ -1,8 +1,9 @@
 import ProjectCard from "./ProjectCard";
 // import mern from "../../assets/mern.png";
 import Ecom from "../../assets/Ecom.jpeg";
-import Bug from "../../assets/Bug.svg";
-import ZaikaBite from "../../assets/ZaikaBite.png"
+import Bug from "../../assets/Bug.jpeg";
+import map from "../../assets/map.jpg";
+import ZaikaBite from "../../assets/ZaikaBite.png";
 
 const Projects = () => {
   return (
@@ -14,14 +15,14 @@ const Projects = () => {
         Projects
       </h1>
       <div className="py-15 px-8 flex flex-wrap gap-10 justify-center">
-      <ProjectCard
+        <ProjectCard
           title="ZaikaBite"
-          main="ZaikaBite is a full-stack food ordering web application that enables users to explore menus, add items to their cart, place secure online orders via a payment gateway, and track order status in real-time. "
+          main="A full-stack food Ordering web application that enables users to explore menus, add items to their cart, place secure online orders via a payment gateway, and track order status in real-time."
           main2="It includes a frontend website, admin panel, and backend server, providing a seamless experience for both customers and administrators."
-          main3="React.js, Node.js, Express.js, MongoDB, JavaScript, RESTful APIs"
           pic={ZaikaBite}
           demolink={"https://zaikabite-frontend.onrender.com/"}
           codeLink={"https://github.com/Adiihub/ZaikaBite"}
+          technology={"React.js, Node.js, Express.js, MongoDB, JavaScript, RESTful APIs"}
         />
         <ProjectCard
           title="Bug Tracking System "
@@ -30,21 +31,23 @@ const Projects = () => {
           MySQL."
           pic={Bug}
           codeLink={"https://github.com/Adiihub/Bug-Tracking-System"}
+          technology={"Python, MySQL"}
         />
-        
-        {/* <ProjectCard
-          title="E-commerce Site"
-          main="A full-fledged e-commerce platform built with React and Node.js for seamless online shopping experience."
-          pic={mern}
-          codeLink={""}
-        /> */}
         <ProjectCard
           title="Ecommerce Backend"
-          main="Built secure user authentication and authorization systems.
-                • Designed APIs for managing product inventory, orders, and user accounts."
-          main2="Node.js, Express.js, MongoDB, JavaScript, RESTful APIs"
+          main="Built secure user authentication and authorization systems."
+          main2={"• Designed APIs for managing product inventory, orders, and user accounts."}
+          technology={"Node.js, Express.js, MongoDB, JavaScript, RESTful APIs"}
           pic={Ecom}
           codeLink={"https://github.com/Adiihub/EComm-Backend"}
+        />
+        <ProjectCard
+          title="RealTime Device Tracker"
+          main="• Tracks user location in real-time & Displays location on an interactive Leaflet map"
+          main2="• Updates user markers live using WebSockets & Removes marker when a user disconnects"
+          pic={map}
+          codeLink={"https://github.com/Adiihub/RealTime-Device-Tracker"}
+          technology={"Node.js, Express, HTML, CSS, Socket.IO, WebSocket, Leaflet.js"}
         />
       </div>
     </div>
