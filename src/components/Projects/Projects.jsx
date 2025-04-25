@@ -48,6 +48,7 @@ const Projects = () => {
           main2="• Updates user markers live using WebSockets & Removes marker when a user disconnects"
           pic={map}
           codeLink={"https://github.com/Adiihub/RealTime-Device-Tracker"}
+          demolink={"https://realtime-device-tracker-j7ww.onrender.com/"}
           technology={"Node.js, Express, HTML, CSS, Socket.IO, WebSocket, Leaflet.js"}
         />
         <ProjectCard
